@@ -1,0 +1,55 @@
+
+
+.musicPlayerContainer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 50px; /* Round container */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+}
+
+.playPauseButton {
+  background-color: #3498db;
+  border: none;
+  border-radius: 50%; /* Round button */
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.playPauseButton:hover {
+  background-color: #2980b9;
+}
+
+.playPauseButton svg {
+  width: 20px;
+  height: 20px;
+}
+
+.volumeControl {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.volumeSlider {
+  width: 80px;
+  margin: 0 5px;
+}
+
+.volumeControl svg {
+  width: 16px;
+  height: 16px;
+  color: #555;
+}
