@@ -95,7 +95,7 @@ const Blog = () => {
                         <img
                           src={image}
                           alt={`${post.title} Image ${index + 1}`}
-                          className="w-90 h-80 rounded mx-auto" 
+                          className="w-full h-auto rounded mx-auto" 
                         />
                       </div>
                     ))}
