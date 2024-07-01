@@ -28,7 +28,7 @@ export const assets = {
         stegio: require("@images/home/myLatestProject/projects/stegio1.png"),
         plagio: require("@images/home/myLatestProject/projects/plagio.png"),
         Stella: require("@images/home/myLatestProject/projects/Stella1.png"),
-       
+        hw: require("@images/home/myLatestProject/projects/hw.png"),
 
       },
     },

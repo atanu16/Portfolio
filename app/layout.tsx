@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${poppins.variable} lg:overflow-x-hidden`}>
+    <html lang="en" id='style-1' className={`${montserrat.variable} ${poppins.variable} lg:overflow-x-hidden`}>
       <body>
         <Navbar />
         {children}

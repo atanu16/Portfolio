@@ -57,8 +57,8 @@ const initialProjects = [
     category: categories[0],
   },
   {
-    slug: 'Plagio',
-    title: 'Plagio',
+    slug: "Plagio",
+    title: "Plagio",
     image: assets.home.myLatestProject.projects.plagio,
     repositoryUrl: "https://github.com/atanu16/Plagio",
     demoUrl: "https://plagioo.vercel.app/",
@@ -89,12 +89,13 @@ const initialProjects = [
     category: categories[0],
   },
   {
-    slug: 'Stegio',
-    title: 'Stegio',
+    slug: "Stegio",
+    title: "Stegio",
     image: assets.home.myLatestProject.projects.stegio,
     repositoryUrl: "https://github.com/atanu16/Stegio",
     demoUrl: "https://stegio.vercel.app/",
-    summary: '"This website hides and reveals messages within images using steganography."',
+    summary:
+      '"This website hides and reveals messages within images using steganography."',
     techStacks: [
       {
         name: "html",
@@ -112,7 +113,40 @@ const initialProjects = [
         webUrl: "#",
       },
       {
+        name: "node js",
+        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
+        webUrl: "#",
+      },
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+  {
+    slug: "Hogwarts University",
+    title: "Hogwarts University",
+    image: assets.home.myLatestProject.projects.hw,
+    repositoryUrl: "https://github.com/atanu16/Hogwarts-University",
+    demoUrl: "https://hogwarts-university.onrender.com/",
+    summary:
+      '"Collage management System with landing page [If you are visiting the site wait for 50sec to load]"',
+    techStacks: [
+      {
+        name: "Ejs",
+        imageUrl: "https://img.icons8.com/color/48/ejs.png",
+        webUrl: "#",
+      },
+      {
+        name: "CSS",
+        imageUrl: "https://img.icons8.com/color/48/css3.png",
+        webUrl: "#",
+      },
+      {
         name: "Java Script",
+        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+        webUrl: "#",
+      },
+      {
+        name: "node js",
         imageUrl: "https://img.icons8.com/color/48/nodejs.png",
         webUrl: "#",
       },
