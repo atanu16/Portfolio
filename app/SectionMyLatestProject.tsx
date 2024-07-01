@@ -20,12 +20,28 @@ export const tabs = [
         image: assets.home.myLatestProject.suitcase,
         data: [
             {
-                slug: 'Coming Soon',
-                title: 'Coming soon',
-                image: assets.home.myLatestProject.projects.soon,
-                repositoryUrl: "https://noticee.vercel.app/",
-                demoUrl: "https://noticee.vercel.app/",
+                slug: 'Stellar Script',
+                title: 'Stellar Script',
+                image: assets.home.myLatestProject.projects.Stella,
+                repositoryUrl: "https://github.com/atanu16/StellarScript",
+                demoUrl: "https://www.npmjs.com/package/stellarscript",
             },
+            {
+                slug: 'Plagio',
+                title: 'Plagio',
+                image: assets.home.myLatestProject.projects.plagio,
+                repositoryUrl: "https://github.com/atanu16/Plagio",
+                demoUrl: "https://plagioo.vercel.app/",
+            },
+            {
+                slug: 'Stegio',
+                title: 'Stegio',
+                image: assets.home.myLatestProject.projects.stegio,
+                repositoryUrl: "https://github.com/atanu16/Stegio",
+                demoUrl: "https://stegio.vercel.app/",
+            },
+           
+           
             {
                 slug: 'Coming Soon',
                 title: 'Coming soon',
@@ -33,27 +49,7 @@ export const tabs = [
                 repositoryUrl: "https://noticee.vercel.app/",
                 demoUrl: "https://noticee.vercel.app/",
             },
-            {
-                slug: 'Coming Soon',
-                title: 'Coming soon',
-                image: assets.home.myLatestProject.projects.soon,
-                repositoryUrl: "https://noticee.vercel.app/",
-                demoUrl: "https://noticee.vercel.app/",
-            },
-            {
-                slug: 'Coming Soon',
-                title: 'Coming soon',
-                image: assets.home.myLatestProject.projects.soon,
-                repositoryUrl: "https://noticee.vercel.app/",
-                demoUrl: "https://noticee.vercel.app/",
-            },
-            {
-                slug: 'Coming Soon',
-                title: 'Coming soon',
-                image: assets.home.myLatestProject.projects.soon,
-                repositoryUrl: "https://noticee.vercel.app/",
-                demoUrl: "https://noticee.vercel.app/",
-            },
+          
            
        
         ]
@@ -69,41 +65,8 @@ export const tabs = [
                 repositoryUrl: "https://noticee.vercel.app/",
                 demoUrl: "https://noticee.vercel.app/",
             },
-            {
-                slug: 'Coming Soon',
-                title: 'Coming soon',
-                image: assets.home.myLatestProject.projects.soon,
-                repositoryUrl: "https://noticee.vercel.app/",
-                demoUrl: "https://noticee.vercel.app/",
-            },
-            {
-                slug: 'Coming Soon',
-                title: 'Coming soon',
-                image: assets.home.myLatestProject.projects.soon,
-                repositoryUrl: "https://noticee.vercel.app/",
-                demoUrl: "https://noticee.vercel.app/",
-            },
-            {
-                slug: 'Coming Soon',
-                title: 'Coming soon',
-                image: assets.home.myLatestProject.projects.soon,
-                repositoryUrl: "https://noticee.vercel.app/",
-                demoUrl: "https://noticee.vercel.app/",
-            },
-            {
-                slug: 'Coming Soon',
-                title: 'Coming soon',
-                image: assets.home.myLatestProject.projects.soon,
-                repositoryUrl: "https://noticee.vercel.app/",
-                demoUrl: "https://noticee.vercel.app/",
-            },
-            {
-                slug: 'Coming Soon',
-                title: 'Coming soon',
-                image: assets.home.myLatestProject.projects.soon,
-                repositoryUrl: "https://noticee.vercel.app/",
-                demoUrl: "https://noticee.vercel.app/",
-            },
+            // todo 
+           
             
         ],
     },

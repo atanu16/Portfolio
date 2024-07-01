@@ -25,6 +25,9 @@ export const assets = {
       suitcase: require("@images/home/myLatestProject/suitcase.webp"),
       projects: {
         soon: require("@images/home/myLatestProject/projects/soon.png"),
+        stegio: require("@images/home/myLatestProject/projects/stegio1.png"),
+        plagio: require("@images/home/myLatestProject/projects/plagio.png"),
+        Stella: require("@images/home/myLatestProject/projects/Stella1.png"),
        
 
       },
