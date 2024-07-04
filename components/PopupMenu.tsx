@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./PopupMenu.module.css";
-
+import { GoVersions } from "react-icons/go";
 const PopupMenu: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -11,7 +11,7 @@ const PopupMenu: React.FC = () => {
   return (
     <div className={styles.popupMenuContainer}>
       <button onClick={toggleMenu} className={styles.menuButton}>
-        V.1
+      <GoVersions />
       </button>
       {isMenuOpen && (
         <div className={styles.menu}>
