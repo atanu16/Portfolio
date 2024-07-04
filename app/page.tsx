@@ -8,7 +8,7 @@ import SectionQuote from "./SectionQuote";
 import SectionTechnologyStack from "./SectionTechnologyStack";
 import React, { useState, useEffect } from "react";
 import Loader from "../components/Loader";
-import MusicPlayer from "../components/MusicPlayer";
+// import MusicPlayer from "../components/MusicPlayer";
 import PopupMenu from '../components/PopupMenu';
 
 export default function Home() {
