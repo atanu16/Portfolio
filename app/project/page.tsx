@@ -234,7 +234,7 @@ export default function Project() {
                 >
                   <Link
                     className="w-full h-full bg-white"
-                    href={`/project/${project.slug}`}
+                    href={`${project.demoUrl}`}
                     target="_blank"
                   >
                     <div className="relative overflow-hidden max-h-48 rounded-tl-2xl rounded-tr-2xl">
