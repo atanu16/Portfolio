@@ -56,13 +56,45 @@ export const tabs = [
         demoUrl: "https://fiesta-sepia.vercel.app/",
       },
       {
+        slug: "Image-Steganography",
+        title: "Image-Steganography",
+        image: assets.home.myLatestProject.projects.is,
+        repositoryUrl: "https://github.com/atanu16/Image-Steganography",
+        demoUrl: "https://www.ijnrd.org/papers/IJNRD2311337.pdf",
+      },
+
+      {
+        slug: "OCR-Application",
+        title: "OCR-Application",
+        image: assets.home.myLatestProject.projects.ocr,
+        repositoryUrl: "https://github.com/atanu16/OCR-Application",
+        demoUrl: "https://ocr-application.vercel.app/",
+      },
+      {
+        slug: "CGPA Calculator",
+        title: "CGPA Calculator",
+        image: assets.home.myLatestProject.projects.cgpa,
+        repositoryUrl: "https://github.com/atanu16/CGPA-Calculator",
+        demoUrl: "https://cgpaa.vercel.app/",
+      },
+      {
         slug: "Stey-Productive",
         title: "Stey-Productive",
         image: assets.home.myLatestProject.projects.sp,
         repositoryUrl: "https://github.com/atanu16/Stey-Productive",
-        demoUrl: "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
+        demoUrl:
+          "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
       },
-      
+      {
+        slug: "Blockchain-Enabled Secure MANETs [AODV]",
+        title: "Blockchain-Enabled Secure MANETs [AODV]",
+        image: assets.home.myLatestProject.projects.aodv,
+        repositoryUrl:
+          "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs",
+        demoUrl:
+          "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs/blob/main/blockchainBlackhole.m",
+      },
+
       {
         slug: "Coming Soon",
         title: "Coming soon",
@@ -182,7 +214,10 @@ export default function SectionMyLatestProject() {
             ))}
           </div>
           <div className="overflow-hidden">
-            <div id="style-3" className="bg-gray rounded-[36px] p-[26px] w-full h-[600px] overflow-y-auto">
+            <div
+              id="style-3"
+              className="bg-gray rounded-[36px] p-[26px] w-full h-[600px] overflow-y-auto"
+            >
               <div className=" grid grid-flow-row grid-cols-12 gap-[26px]">
                 {tabs.map((tab, tabIndex) =>
                   tab.data.map(

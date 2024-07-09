@@ -31,6 +31,12 @@ export const assets = {
         hw: require("@images/home/myLatestProject/projects/hw.png"),
         fw: require("@images/home/myLatestProject/projects/fw.png"),
         sp: require("@images/home/myLatestProject/projects/sp.png"),
+        ocr: require("@images/home/myLatestProject/projects/ocr.png"),
+        cgpa: require("@images/home/myLatestProject/projects/cgpa.png"),
+        is: require("@images/home/myLatestProject/projects/is.png"),
+        port: require("@images/home/myLatestProject/projects/port.png"),
+        aodv: require("@images/home/myLatestProject/projects/aodv.png"),
+       
 
       },
     },

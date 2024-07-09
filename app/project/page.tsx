@@ -155,12 +155,13 @@ const initialProjects = [
     category: categories[0],
   },
   {
-      slug: "Stey-Productive",
-      title: "Stey-Productive",
-      image: assets.home.myLatestProject.projects.sp,
-      repositoryUrl: "https://github.com/atanu16/Stey-Productive",
-      demoUrl: "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
-    
+    slug: "Stey-Productive",
+    title: "Stey-Productive",
+    image: assets.home.myLatestProject.projects.sp,
+    repositoryUrl: "https://github.com/atanu16/Stey-Productive",
+    demoUrl:
+      "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
+
     summary: '" Extensions for Stey Productive in daily life"',
     techStacks: [
       {
@@ -178,7 +179,6 @@ const initialProjects = [
         imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
         webUrl: "#",
       },
-     
     ],
     projectType: projectTypes[1],
     category: categories[0],
@@ -212,7 +212,104 @@ const initialProjects = [
         imageUrl: "https://img.icons8.com/color/48/nodejs.png",
         webUrl: "#",
       },
-     
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+  {
+    slug: "OCR-Application",
+    title: "OCR-Application",
+    image: assets.home.myLatestProject.projects.ocr,
+    repositoryUrl: "https://github.com/atanu16/OCR-Application",
+    demoUrl: "https://ocr-application.vercel.app/",
+    summary: '"Extract Text from image ( Ignore the UI )"',
+    techStacks: [
+      {
+        name: "React js",
+        imageUrl: "https://img.icons8.com/plasticine/100/react.png",
+        webUrl: "#",
+      },
+      {
+        name: "CSS",
+        imageUrl: "https://img.icons8.com/color/48/css3.png",
+        webUrl: "#",
+      },
+      {
+        name: "node js",
+        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
+        webUrl: "#",
+      },
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+  {
+    slug: "CGPA Calculator",
+    title: "CGPA Calculator",
+    image: assets.home.myLatestProject.projects.cgpa,
+    repositoryUrl: "https://github.com/atanu16/CGPA-Calculator",
+    demoUrl: "https://cgpaa.vercel.app/",
+    summary: '"SGPA to CGPA calculator [On development]"',
+    techStacks: [
+      {
+        name: "React js",
+        imageUrl: "https://img.icons8.com/plasticine/100/react.png",
+        webUrl: "#",
+      },
+      {
+        name: "CSS",
+        imageUrl: "https://img.icons8.com/color/48/css3.png",
+        webUrl: "#",
+      },
+      {
+        name: "node js",
+        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
+        webUrl: "#",
+      },
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+  {
+    slug: "Image-Steganography",
+    title: "Image-Steganography",
+    image: assets.home.myLatestProject.projects.is,
+    repositoryUrl: "https://github.com/atanu16/Image-Steganography",
+    demoUrl: "https://www.ijnrd.org/papers/IJNRD2311337.pdf",
+    summary:
+      '"Secretly hiding messages inside pictures for private communication or security."',
+    techStacks: [
+      {
+        name: "Python",
+        imageUrl: "https://img.icons8.com/color/48/python--v1.png",
+        webUrl: "#",
+      },
+      {
+        name: "PowerShell",
+        imageUrl: "https://img.icons8.com/color/48/powershell.png",
+        webUrl: "#",
+      },
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+  {
+    slug: "Blockchain-Enabled Secure MANETs [AODV]",
+    title: "Blockchain-Enabled Secure MANETs [AODV]",
+    image: assets.home.myLatestProject.projects.aodv,
+    repositoryUrl:
+      "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs",
+    demoUrl:
+      "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs/blob/main/blockchainBlackhole.m",
+    summary:
+      '"Blockchain-Enabled AODV Routing Simulation for Secure MANETs."',
+    techStacks: [
+      {
+        name: "matlab",
+        imageUrl: "https://img.icons8.com/fluency/48/matlab.png",
+        webUrl: "#",
+      },
+      
     ],
     projectType: projectTypes[1],
     category: categories[0],
