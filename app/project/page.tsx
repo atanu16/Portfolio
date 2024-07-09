@@ -154,6 +154,69 @@ const initialProjects = [
     projectType: projectTypes[1],
     category: categories[0],
   },
+  {
+      slug: "Stey-Productive",
+      title: "Stey-Productive",
+      image: assets.home.myLatestProject.projects.sp,
+      repositoryUrl: "https://github.com/atanu16/Stey-Productive",
+      demoUrl: "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
+    
+    summary: '" Extensions for Stey Productive in daily life"',
+    techStacks: [
+      {
+        name: "html",
+        imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
+        webUrl: "#",
+      },
+      {
+        name: "CSS",
+        imageUrl: "https://img.icons8.com/color/48/css3.png",
+        webUrl: "#",
+      },
+      {
+        name: "Java Script",
+        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+        webUrl: "#",
+      },
+     
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+
+  {
+    slug: "Fiesta-WatchParty",
+    title: "Fiesta-WatchParty",
+    image: assets.home.myLatestProject.projects.fw,
+    repositoryUrl: "https://github.com/atanu16/Fiesta-WatchParty",
+    demoUrl: "https://fiesta-sepia.vercel.app/",
+    summary: '"watch movies with your friends in realtime"',
+    techStacks: [
+      {
+        name: "html",
+        imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
+        webUrl: "#",
+      },
+      {
+        name: "CSS",
+        imageUrl: "https://img.icons8.com/color/48/css3.png",
+        webUrl: "#",
+      },
+      {
+        name: "Java Script",
+        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+        webUrl: "#",
+      },
+      {
+        name: "node js",
+        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
+        webUrl: "#",
+      },
+     
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
 
   {
     slug: "Coming soon",

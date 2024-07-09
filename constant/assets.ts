@@ -29,6 +29,8 @@ export const assets = {
         plagio: require("@images/home/myLatestProject/projects/plagio.png"),
         Stella: require("@images/home/myLatestProject/projects/Stella1.png"),
         hw: require("@images/home/myLatestProject/projects/hw.png"),
+        fw: require("@images/home/myLatestProject/projects/fw.png"),
+        sp: require("@images/home/myLatestProject/projects/sp.png"),
 
       },
     },

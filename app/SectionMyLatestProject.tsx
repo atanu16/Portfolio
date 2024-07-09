@@ -49,6 +49,21 @@ export const tabs = [
       },
 
       {
+        slug: "Fiesta-WatchParty",
+        title: "Fiesta-WatchParty",
+        image: assets.home.myLatestProject.projects.fw,
+        repositoryUrl: "https://github.com/atanu16/Fiesta-WatchParty",
+        demoUrl: "https://fiesta-sepia.vercel.app/",
+      },
+      {
+        slug: "Stey-Productive",
+        title: "Stey-Productive",
+        image: assets.home.myLatestProject.projects.sp,
+        repositoryUrl: "https://github.com/atanu16/Stey-Productive",
+        demoUrl: "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
+      },
+      
+      {
         slug: "Coming Soon",
         title: "Coming soon",
         image: assets.home.myLatestProject.projects.soon,
