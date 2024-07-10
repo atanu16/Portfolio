@@ -92,7 +92,7 @@ export const tabs = [
         repositoryUrl:
           "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs",
         demoUrl:
-          "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs/blob/main/blockchainBlackhole.m",
+          "https://in.mathworks.com/matlabcentral/fileexchange/169428-blockchain-enabled-aodv-routing-simulation-for-secure-manets",
       },
 
       {

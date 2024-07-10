@@ -155,35 +155,25 @@ const initialProjects = [
     category: categories[0],
   },
   {
-    slug: "Stey-Productive",
-    title: "Stey-Productive",
-    image: assets.home.myLatestProject.projects.sp,
-    repositoryUrl: "https://github.com/atanu16/Stey-Productive",
+    slug: "Blockchain-Enabled Secure MANETs [AODV]",
+    title: "Blockchain-Enabled Secure MANETs [AODV]",
+    image: assets.home.myLatestProject.projects.aodv,
+    repositoryUrl:
+      "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs",
     demoUrl:
-      "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
-
-    summary: '" Extensions for Stey Productive in daily life"',
+      "https://in.mathworks.com/matlabcentral/fileexchange/169428-blockchain-enabled-aodv-routing-simulation-for-secure-manets",
+    summary: '"Blockchain-Enabled AODV Routing Simulation for Secure MANETs."',
     techStacks: [
       {
-        name: "html",
-        imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
-        webUrl: "#",
-      },
-      {
-        name: "CSS",
-        imageUrl: "https://img.icons8.com/color/48/css3.png",
-        webUrl: "#",
-      },
-      {
-        name: "Java Script",
-        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+        name: "matlab",
+        imageUrl: "https://img.icons8.com/fluency/48/matlab.png",
         webUrl: "#",
       },
     ],
     projectType: projectTypes[1],
     category: categories[0],
   },
-
+  
   {
     slug: "Fiesta-WatchParty",
     title: "Fiesta-WatchParty",
@@ -292,28 +282,36 @@ const initialProjects = [
     ],
     projectType: projectTypes[1],
     category: categories[0],
-  },
-  {
-    slug: "Blockchain-Enabled Secure MANETs [AODV]",
-    title: "Blockchain-Enabled Secure MANETs [AODV]",
-    image: assets.home.myLatestProject.projects.aodv,
-    repositoryUrl:
-      "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs",
+  },{
+    slug: "Stey-Productive",
+    title: "Stey-Productive",
+    image: assets.home.myLatestProject.projects.sp,
+    repositoryUrl: "https://github.com/atanu16/Stey-Productive",
     demoUrl:
-      "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs/blob/main/blockchainBlackhole.m",
-    summary:
-      '"Blockchain-Enabled AODV Routing Simulation for Secure MANETs."',
+      "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
+
+    summary: '" Extensions for Stey Productive in daily life"',
     techStacks: [
       {
-        name: "matlab",
-        imageUrl: "https://img.icons8.com/fluency/48/matlab.png",
+        name: "html",
+        imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
         webUrl: "#",
       },
-      
+      {
+        name: "CSS",
+        imageUrl: "https://img.icons8.com/color/48/css3.png",
+        webUrl: "#",
+      },
+      {
+        name: "Java Script",
+        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+        webUrl: "#",
+      },
     ],
     projectType: projectTypes[1],
     category: categories[0],
   },
+
 
   {
     slug: "Coming soon",
